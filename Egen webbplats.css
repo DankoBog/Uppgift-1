@@ -1,0 +1,48 @@
+a {  /*Detta var för att byta färgen på menyn*/
+    padding: 5px;
+    background-color: #808e9b;
+    color: white;
+}
+ul{     
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 99%;
+    overflow: auto;
+    background-color:#808e9b;
+}
+li,a{                /*Detta användes för att skapa en horizontell lista*/
+    float: left;
+    display: block;
+    text-decoration: none;
+}
+body{               /*Här bytte jag balgrundsfärgen på själva hemsidan*/
+    background-color: #55efc4;
+}
+table{
+    width:67%;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 14px;
+    text-align: left;
+}          
+tbody tr:nth-child(even){       /*Detta används för zebra stripingen och är en pseudoklassselektor*/ 
+    background-color: #55efc4;
+}
+tbody tr:nth-child(odd){
+    background-color: #808e9b;
+}
+caption{
+    caption-side:bottom;
+    font-size:20px;
+}
+.textC{
+    text-align:center;
+}
+.textR{
+    text-align:right;
+}

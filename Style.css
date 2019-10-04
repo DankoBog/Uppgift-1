@@ -1,24 +1,16 @@
-body
+body,html
 {
 background-color:red;
+    width:100%;
+    height:100%;
 }
  h1{ 
      font-family: Arial;
      font-size: 22px;
 }
-
-.xD{
-    background-color: LightSteelBlue;
-    text-align: center;
-}
 .text{
     text-align: right;
 }
-
-.colour{
-    color: #E93646;
-}
-
 .border{
     border-style: solid;
 }
@@ -35,13 +27,12 @@ header{
 main{
     grid-area: main;
     display: grid;
-    grid-template-rows: 125px 125px;
     grid-template-areas: 's1 s2'
                          's1 s2';
     
 }
 section{
-    font-size: 20px:
+    font-size: 20px;
 }
 section:s1{
     grid-area: s1;
